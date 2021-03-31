@@ -1,6 +1,22 @@
 # NOTE
 <hr>
 
+### Question 1
+Is a python script that returns the smallest of non occuring integer in any given array<br>
+
+Run the command
+```bash
+> py minimum.py
+```
+
+### Question 2
+activ_edge.sql script when executed returns an ordered records in table T1 but not in T2<br>
+
+Contains the SQL
+```bash
+> SELECT id, name, age FROM `t1` WHERE name NOT IN (SELECT name FROM `t2`)
+```
+
 ### Question 3
 This is a simple flask REST app that uses MongoDB.
 I tested the api using POSTMAN
@@ -13,8 +29,8 @@ e.g. Any of the POST, PUT request gets json responses like this
     "id" : 1,
     "name" : "Dow_Jones",
     "currentPrice" : 4789.00,
-    "createDate" : 'datetimefield',
-    "lastUpdate" : 'datetimefield'
+    "createDate" : "datetimefield",
+    "lastUpdate" : "datetimefield"
 
 }
 ```
@@ -62,19 +78,10 @@ Run the commands <br>
     "id" : 1,
     "name" : "Dow_Jones",
     "currentPrice" : 4789.00,
-    "createDate" : 'datetimefield',
-    "lastUpdate" : 'datetimefield'
+    "createDate" : "datetimefield",
+    "lastUpdate" : "datetimefield"
 }
 ```
 <hr>
 
 # Thank you
-
-
-### Question 1
-Is a python script that returns the smallest of non occuring integer in any given array<br>
-
-Run the command
-```bash
-> py minimum.py
-```

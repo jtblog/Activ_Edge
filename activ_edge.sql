@@ -1,0 +1,1 @@
+SELECT id, name, age FROM `t1` WHERE name NOT IN (SELECT name FROM `t2`)
