@@ -41,7 +41,7 @@ body schemas/models represented at the bottom of this markdown <br>
 
 <br>
 To use app.py <br>
-Set the current flask app to alt.py <br>
+Set the current flask app to app.py <br>
 Run the commands <br>
 
 ```bash
